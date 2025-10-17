@@ -1,2 +1,3 @@
 # RoLocMe_Project
-RoLocMe code and info
+Version 1.0
+Code for RoLocMe Project. 
