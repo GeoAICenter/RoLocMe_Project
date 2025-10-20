@@ -195,7 +195,7 @@ def make_step_critic(
         building_embedding_,
         gamma, gamma_lambda, vf_coef
     )
-    updates, opt_state = optim_actor.update(grads, opt_cri, critic_m)
+    updates, opt_state = optim_critic.update(grads, opt_cri, critic_m)
     critic_m = eqx.apply_updates(critic_m, updates)
     return loss, critic_m, opt_state
 
